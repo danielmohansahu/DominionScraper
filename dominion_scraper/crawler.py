@@ -34,6 +34,13 @@ class DominionCrawler:
         Args:
             username:   The username to login with.
             password:   The password to login with.
+
+        Returns:
+            page_content:   A BeautifulSoup object containing page data.
+
+        Raises:
+            RuntimeError
+
         """
         # Attempt to login
         try:

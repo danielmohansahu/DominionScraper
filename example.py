@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""This script provides example code for using the scraper / crawler defined in this package.
+"""
+
 import code
 from getpass import getpass
 
@@ -11,7 +14,6 @@ if __name__ == "__main__":
     crawler = DominionCrawler()
 
     # login and extract raw data:
-    # @todo force user input
     data = crawler.login(
         getpass("Username: "),
         getpass("Password: ")
